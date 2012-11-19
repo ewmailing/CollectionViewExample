@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "OBDragDropManager.h"
 
 @implementation AppDelegate
 
@@ -19,6 +20,10 @@
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+	
+	OBDragDropManager *manager = [OBDragDropManager sharedManager];
+    [manager prepareOverlayWindowUsingMainWindow:self.window];
+	
     return YES;
 }
 

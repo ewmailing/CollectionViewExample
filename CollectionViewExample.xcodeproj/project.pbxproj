@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00EE1EAC1659062000493609 /* OBDragDropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EE1EA61659062000493609 /* OBDragDropManager.m */; };
+		00EE1EAD1659062000493609 /* OBLongPressDragDropGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EE1EA91659062000493609 /* OBLongPressDragDropGestureRecognizer.m */; };
+		00EE1EAE1659062000493609 /* UIView+OBDropZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EE1EAB1659062000493609 /* UIView+OBDropZone.m */; };
+		00EE1EB61659AFEF00493609 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EE1EB51659AFEE00493609 /* CanvasView.m */; };
+		00EE1EB9165A057B00493609 /* CloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EE1EB8165A057B00493609 /* CloseButton.m */; };
 		22FF882815F76E6900D6EACF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FF882715F76E6900D6EACF /* UIKit.framework */; };
 		22FF882A15F76E6900D6EACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FF882915F76E6900D6EACF /* Foundation.framework */; };
 		22FF882C15F76E6900D6EACF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FF882B15F76E6900D6EACF /* CoreGraphics.framework */; };
@@ -21,6 +26,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00EE1EA51659062000493609 /* OBDragDropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDropManager.h; sourceTree = "<group>"; };
+		00EE1EA61659062000493609 /* OBDragDropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDragDropManager.m; sourceTree = "<group>"; };
+		00EE1EA71659062000493609 /* OBDragDropProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDropProtocol.h; sourceTree = "<group>"; };
+		00EE1EA81659062000493609 /* OBLongPressDragDropGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBLongPressDragDropGestureRecognizer.h; sourceTree = "<group>"; };
+		00EE1EA91659062000493609 /* OBLongPressDragDropGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBLongPressDragDropGestureRecognizer.m; sourceTree = "<group>"; };
+		00EE1EAA1659062000493609 /* UIView+OBDropZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+OBDropZone.h"; sourceTree = "<group>"; };
+		00EE1EAB1659062000493609 /* UIView+OBDropZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OBDropZone.m"; sourceTree = "<group>"; };
+		00EE1EB41659AFEE00493609 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		00EE1EB51659AFEE00493609 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		00EE1EB7165A057A00493609 /* CloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloseButton.h; sourceTree = "<group>"; };
+		00EE1EB8165A057B00493609 /* CloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloseButton.m; sourceTree = "<group>"; };
 		22FF882315F76E6900D6EACF /* CollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FF882715F76E6900D6EACF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22FF882915F76E6900D6EACF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +70,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00EE1EA41659062000493609 /* OBDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				00EE1EA51659062000493609 /* OBDragDropManager.h */,
+				00EE1EA61659062000493609 /* OBDragDropManager.m */,
+				00EE1EA71659062000493609 /* OBDragDropProtocol.h */,
+				00EE1EA81659062000493609 /* OBLongPressDragDropGestureRecognizer.h */,
+				00EE1EA91659062000493609 /* OBLongPressDragDropGestureRecognizer.m */,
+				00EE1EAA1659062000493609 /* UIView+OBDropZone.h */,
+				00EE1EAB1659062000493609 /* UIView+OBDropZone.m */,
+			);
+			name = OBDragDrop;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		22FF881815F76E6900D6EACF = {
 			isa = PBXGroup;
 			children = (
@@ -84,11 +115,16 @@
 		22FF882D15F76E6900D6EACF /* CollectionViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				00EE1EA41659062000493609 /* OBDragDrop */,
 				22FF884D15F7BA7100D6EACF /* App delegate */,
 				22FF884E15F7BA7E00D6EACF /* Collection view */,
 				22FF885015F7BA9D00D6EACF /* Subclass-based cells */,
 				22FF884F15F7BA9600D6EACF /* Nib-based cells */,
 				22FF882E15F76E6900D6EACF /* Supporting Files */,
+				00EE1EB41659AFEE00493609 /* CanvasView.h */,
+				00EE1EB51659AFEE00493609 /* CanvasView.m */,
+				00EE1EB7165A057A00493609 /* CloseButton.h */,
+				00EE1EB8165A057B00493609 /* CloseButton.m */,
 			);
 			path = CollectionViewExample;
 			sourceTree = "<group>";
@@ -210,6 +246,11 @@
 				22FF883815F76E6900D6EACF /* AppDelegate.m in Sources */,
 				22FF883B15F76E6900D6EACF /* ViewController.m in Sources */,
 				22FF884815F7A4C100D6EACF /* CVCell.m in Sources */,
+				00EE1EAC1659062000493609 /* OBDragDropManager.m in Sources */,
+				00EE1EAD1659062000493609 /* OBLongPressDragDropGestureRecognizer.m in Sources */,
+				00EE1EAE1659062000493609 /* UIView+OBDropZone.m in Sources */,
+				00EE1EB61659AFEF00493609 /* CanvasView.m in Sources */,
+				00EE1EB9165A057B00493609 /* CloseButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +328,12 @@
 		22FF884215F76E6A00D6EACF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CollectionViewExample/CollectionViewExample-Prefix.pch";
 				INFOPLIST_FILE = "CollectionViewExample/CollectionViewExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -299,11 +341,12 @@
 		22FF884315F76E6A00D6EACF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CollectionViewExample/CollectionViewExample-Prefix.pch";
 				INFOPLIST_FILE = "CollectionViewExample/CollectionViewExample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -327,6 +370,7 @@
 				22FF884315F76E6A00D6EACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
